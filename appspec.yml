@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-- source: /
+- source: /scripts
 destination: /var/www/my-app/
 permissions:
 - object: /var/www/my-app/
