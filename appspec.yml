@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
 - source: /scripts
-destination: /home/ubuntu/ruby
+  destination: /home/ubuntu/ruby
 permissions:
 - object: /home/ubuntu/ruby
 pattern: “**”
