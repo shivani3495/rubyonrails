@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
 - source: /scripts
-destination: /var/www
+destination: /home/ubuntu/ruby
 permissions:
-- object: /var/www/
+- object: /home/ubuntu/ruby
 pattern: “**”
 owner: ubuntu
 group: ubuntu
