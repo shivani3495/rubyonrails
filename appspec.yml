@@ -11,5 +11,5 @@ group: ubuntu
 mode: 775
 hooks:
 AfterInstall:
-- location: ./dependencies_install.sh
+- location: dependencies_install.sh
 runas: ubuntu
